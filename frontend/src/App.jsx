@@ -63,7 +63,7 @@ function App() {
     const formData = new FormData(); formData.append('file', file);
     
     try {
-      const resp = await fetch('http://localhost:8000/api/generate', { method: 'POST', body: formData });
+      const resp = await fetch('https://mkeshav04-flashforge-api.hf.space', { method: 'POST', body: formData });
       
       // Error Resilience: Catch server crashes (500) or bad requests (400)
       if (!resp.ok) throw new Error("Server rejected the file. Try a smaller or text-heavy PDF.");
