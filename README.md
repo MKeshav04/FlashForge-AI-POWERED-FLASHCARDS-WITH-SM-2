@@ -2,7 +2,7 @@
 
 **FlashForge** is an intelligent learning infrastructure designed to transform static documents into active recall systems. It utilizes AI for automated flashcard generation and implements the SuperMemo-2 (SM-2) algorithm to optimize human retention.
 
-🔗 **[Live Demo](Insert-Your-Netlify-Link-Here)** 
+🔗 **[Live Demo](https://flash-forge.netlify.app/)** 
 ---
 
 ## 🧠 Core Architecture & Features
