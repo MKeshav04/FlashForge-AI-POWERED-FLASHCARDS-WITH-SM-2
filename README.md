@@ -2,8 +2,7 @@
 
 **FlashForge** is an intelligent learning infrastructure designed to transform static documents into active recall systems. It utilizes AI for automated flashcard generation and implements the SuperMemo-2 (SM-2) algorithm to optimize human retention.
 
-🔗 **[Live Demo](Insert-Your-Netlify-Link-Here)** | 📹 **[60-Second Video Walkthrough](Insert-Loom/YouTube-Link-Here)**
-
+🔗 **[Live Demo](Insert-Your-Netlify-Link-Here)** 
 ---
 
 ## 🧠 Core Architecture & Features
@@ -35,12 +34,3 @@ When a card is reviewed, the user grades their recall (0 = Blackout, 5 = Perfect
 * **Backend:** Python, FastAPI, Uvicorn
 * **Database & Auth:** Supabase (PostgreSQL)
 * **AI Integration:** LLM for structured JSON output
-
----
-
-## 🚀 Local Development Setup
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/MKeshav04/FlashForge-AI-POWERED-FLASHCARDS-WITH-SM-2.git](https://github.com/MKeshav04/FlashForge-AI-POWERED-FLASHCARDS-WITH-SM-2.git)
-cd FlashForge-AI-POWERED-FLASHCARDS-WITH-SM-2
