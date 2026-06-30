@@ -90,7 +90,7 @@ async def generate_flashcards(file: UploadFile = File(...)):
                         "content": prompt
                     }
                 ],
-                model="llama-3.3-70b-versatile",
+                model="qwen3.6-27b",
                 response_format={"type": "json_object"},
                 temperature=0.2
             )
